@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>unknow</groupId>
+	<artifactId>root</artifactId>
+	<version>1.1</version>
+	<packaging>pom</packaging>
+
+	<name>Unknow root</name>
+	<description>root pom used to share repository</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<developers>
+		<developer>
+			<id>Unknow0</id>
+			<name>Unknow</name>
+			<email>unknow0@free.fr</email>
+		</developer>
+	</developers>
+
+	<distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<url>http://unknow.hd.free.fr/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<url>http://unknow.hd.free.fr/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+</project>
