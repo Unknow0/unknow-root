@@ -23,11 +23,11 @@
 
 	<distributionManagement>
 		<repository>
-			<id>nexus</id>
+			<id>unk</id>
 			<url>http://unknow.hd.free.fr/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
-			<id>nexus</id>
+			<id>unk</id>
 			<url>http://unknow.hd.free.fr/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
